@@ -1,0 +1,12 @@
+packages:
+  - cloud-init
+  - openssh-server
+  - dbus
+  - libc
+  - walinuxagent
+  - nullboot
+package_regexps:
+  - grub.*
+  - shim.*
+  - linux.*azure.*
+  - .*systemd.*
